@@ -1,0 +1,26 @@
+{
+  "terms": {
+    "title": "Algemene voorwaarden",
+    "sections": [
+      {"heading": "Tarieven","text": "De tarieven van Thai Smile zijn inclusief 21% btw."},
+      {"heading": "Betaling","text": "Betaling vindt na de behandeling plaats. Volgens de huidige voorwaarden kan dit contant, per pin of mobiel via de zakelijke rekening. Indien betaling per factuur is overeengekomen, geldt een betalingstermijn van 14 dagen."},
+      {"heading": "Annulering","text": "Een afspraak kan tot 24 uur voor aanvang kosteloos worden geannuleerd. Bij te late annulering kunnen de volledige kosten van de behandeling in rekening worden gebracht."},
+      {"heading": "Cadeaubonnen","text": "Cadeaubonnen zijn niet inwisselbaar voor contant geld en zijn 1 jaar geldig vanaf de afgiftedatum."},
+      {"heading": "Gezondheid & intake","text": "Meld relevante medische klachten, behandeling door arts of specialist en medicijngebruik vooraf. Bij twijfel over massage wordt geadviseerd eerst een behandelend arts te raadplegen. De massages zijn geen medische behandelingen."},
+      {"heading": "Klachten","text": "Klachten kunnen eerst rechtstreeks bij Thai Smile worden gemeld. De huidige voorwaarden verwijzen daarnaast naar BMS als aangesloten organisatie."},
+      {"heading": "Gedrag","text": "Thai Smile biedt geen erotische massages of seksuele handelingen. Seksuele toespelingen of verzoeken kunnen aanleiding zijn om een behandeling te stoppen of toegang te weigeren."}
+    ]
+  },
+  "privacy": {
+    "title": "Privacy & cookies",
+    "text": "Deze website verwerkt alleen gegevens die je zelf invult om een afspraakaanvraag via WhatsApp op te stellen. De website verstuurt het formulier niet naar een eigen database. Google Maps wordt pas geladen nadat je zelf op ‘Kaart laden’ klikt. Er worden geen marketingcookies geplaatst. In deze technische preview worden enkele gecontroleerde salonfoto’s nog vanaf hun openbare bron geladen; vóór livegang worden de originele bestanden lokaal opgeslagen."
+  },
+  "appointments": {
+    "title": "Annuleren & afspraken",
+    "text": "Behandelingen zijn alleen op afspraak. Een gekozen datum en tijd via deze website is een aanvraag en wordt pas definitief nadat Thai Smile dit via WhatsApp heeft bevestigd. Kosteloos annuleren kan volgens de huidige voorwaarden tot 24 uur voor de behandeling."
+  },
+  "company": {
+    "title": "Bedrijfsgegevens",
+    "text": "Massagepraktijk Thai Smile — Guido Gezellelaan 102, 2624 LA Delft — 06 2666 4575 — KvK 66638674."
+  }
+}
