@@ -1,0 +1,10 @@
+[
+  {
+    "id": "giftcard",
+    "name": "Cadeaubon",
+    "description": "Cadeaubonnen zijn verkrijgbaar bij Thai Smile en zijn volgens de huidige voorwaarden 1 jaar geldig na afgiftedatum.",
+    "price": null,
+    "validity": "1 jaar na afgiftedatum",
+    "cta": "Vraag via WhatsApp"
+  }
+]
