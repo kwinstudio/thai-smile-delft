@@ -1,0 +1,81 @@
+{
+  "name": "Thai Smile",
+  "legalName": "Massagepraktijk Thai Smile",
+  "tagline": "Persoonlijke Thaise massage in Delft Voorhof",
+  "phone": "+31626664575",
+  "phoneDisplay": "06 2666 4575",
+  "whatsapp": "31626664575",
+  "email": "",
+  "address": {
+    "street": "Guido Gezellelaan 102",
+    "postalCode": "2624 LA",
+    "city": "Delft",
+    "country": "NL"
+  },
+  "kvk": "66638674",
+  "bookingOnly": true,
+  "parking": "Gratis parkeergelegenheid",
+  "publicTransport": "Vanaf Station Delft Campus ongeveer 10 minuten lopen.",
+  "openingHours": {
+    "source": "website",
+    "monday": "09:00–20:00",
+    "tuesday": "09:00–20:00",
+    "wednesday": "09:00–20:00",
+    "thursday": "09:00–20:00",
+    "friday": "09:00–20:00",
+    "saturday": "09:00–20:00",
+    "sunday": "Gesloten"
+  },
+  "hoursConflictNote": "De eigen website noemt ma–za 09:00–20:00. De actuele openbare Google-bedrijfsvermelding toont ma–za 09:00–22:00. Controleren vóór livegang.",
+  "owner": {
+    "name": "Piyada",
+    "intro": "Piyada komt uit Udon Thani in het noorden van Thailand en woont in Delft. Ze stemt iedere massage af op wat iemand nodig heeft en aankan.",
+    "credentials": "De praktijk vermeldt dat er alleen met gediplomeerde masseuses wordt gewerkt en dat de praktijk is aangesloten bij BMS."
+  },
+  "reviews": {
+    "googleRating": 4.9,
+    "googleCount": 35,
+    "treatwellRating": 5.0,
+    "treatwellCount": 33,
+    "googleUrl": "https://www.google.com/search?q=Thai+Smile+Guido+Gezellelaan+102+Delft+reviews",
+    "writeGoogleUrl": "https://www.google.com/search?q=Thai+Smile+Guido+Gezellelaan+102+Delft+review"
+  },
+  "brand": {
+    "primary": "#B66A2C",
+    "background": "#F7F2E9",
+    "ink": "#25332C",
+    "note": "Palet afgeleid van het warme hout, saffraan/goud, Thaise textielen en groenaccenten in de echte salonfotografie."
+  },
+  "images": {
+    "hero": "https://cdn1.treatwell.net/images/view/v2.i4343440.w1080.h720.xD962F1BC/",
+    "interior": "https://www.thai-smile.nl/.cm4all/mediadb/2.jpg",
+    "imageMigrationNote": "Preview gebruikt publieke bronbestanden. Kopieer deze vóór livegang lokaal naar assets/images wanneer de originele bestanden beschikbaar zijn."
+  },
+  "seo": {
+    "title": "Thaise massage Delft | Thai Smile Voorhof",
+    "description": "Thai Smile in Delft Voorhof voor Thaise massage, ontspanningsmassage, deep tissue en meer. Alleen op afspraak aan de Guido Gezellelaan 102.",
+    "canonical": "https://thai-smile.nl/"
+  },
+  "hero": {
+    "eyebrow": "Thaise massage · Delft Voorhof",
+    "title": "Tijd voor aandacht voor je lichaam.",
+    "subtitle": "Persoonlijke Thaise massage in een rustige praktijk, afgestemd op wat jij prettig vindt en aankan.",
+    "primaryCta": "Afspraak maken",
+    "secondaryCta": "Vind mijn massage"
+  },
+  "about": {
+    "eyebrow": "Over Thai Smile",
+    "title": "Een stukje Thailand in Delft.",
+    "intro": "Mijn naam is Piyada. Ik kom uit Udon Thani in het noorden van Thailand en woon in Delft. In de praktijk staat persoonlijke aandacht centraal en wordt de massage afgestemd op wat jij nodig hebt en aankan.",
+    "principles": [
+      {"title": "Authentieke technieken","text": "Thaise traditie met aandacht voor jouw grens."},
+      {"title": "Rustige setting","text": "Thaise inrichting, muziek en een ontspannen sfeer."},
+      {"title": "Van zacht tot stevig","text": "Keuze uit ontspannende en intensievere behandelingen."}
+    ]
+  },
+  "socials": {"instagram": "","facebook": "","tiktok": ""},
+  "gallery": [
+    {"src": "https://cdn1.treatwell.net/images/view/v2.i4343440.w1080.h720.xD962F1BC/","alt": "Piyada van Thai Smile in Delft","caption": "Piyada van Thai Smile"},
+    {"src": "https://www.thai-smile.nl/.cm4all/mediadb/2.jpg","alt": "Interieur van Thai Smile in Delft","caption": "De salon in Delft"}
+  ]
+}
