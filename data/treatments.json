@@ -1,0 +1,65 @@
+[
+  {
+    "id": "thai","name": "Traditionele Thaise massage","type": "Traditioneel",
+    "short": "Stevige druk en rustige strekkingen, afgestemd op jouw grens.",
+    "long": "Een traditionele Thaise massage werkt met druktechnieken en strekkingen. Thai Smile beschrijft dat de intensiteit geleidelijk wordt opgebouwd en wordt aangepast aan wat jouw lichaam aankan.",
+    "intensity": "Stevig","oil": "Zonder olie","durations": [30,45,60,90,120],"price": null,"active": true,
+    "options": [{"duration":30,"price":null},{"duration":45,"price":null},{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "relax","name": "Ontspanningsmassage","type": "Ontspanning",
+    "short": "Rustige behandeling voor een ontspannen moment en minder spanning.",
+    "long": "De ontspanningsmassage is gericht op rust in lichaam en hoofd. De behandeling kan ook gekozen worden wanneer je geen specifieke lichamelijke klacht hebt.",
+    "intensity": "Zacht tot gemiddeld","oil": "Met olie","durations": [30,45,60,90,120],"price": null,"active": true,
+    "options": [{"duration":30,"price":null},{"duration":45,"price":null},{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "aroma","name": "Aromatherapie-massage","type": "Ontspanning",
+    "short": "Ontspannende massage met olie en aromatische beleving.",
+    "long": "Een ontspannende oliemassage met aromatische beleving. Kies deze behandeling wanneer rust en een zachtere massage voorop staan.",
+    "intensity": "Zacht tot gemiddeld","oil": "Met olie","durations": [30,45,60,90,120],"price": null,"active": true,
+    "options": [{"duration":30,"price":null},{"duration":45,"price":null},{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "deep","name": "Deep tissue massage","type": "Stevige massage",
+    "short": "Gerichte, stevige massage voor belaste of gespannen spieren.",
+    "long": "Een stevigere massagevorm met meer gerichte druk. Geschikt wanneer je bewust voor een intensievere behandeling kiest. De druk wordt afgestemd op jouw voorkeur en grens.",
+    "intensity": "Stevig","oil": "Met olie","durations": [60,90,120],"price": null,"active": true,
+    "options": [{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "neck","name": "Rug-, schouder- & hoofdmassage","type": "Gericht",
+    "short": "Extra aandacht voor rug, schouders, nek en hoofd.",
+    "long": "Een gerichte behandeling wanneer je vooral aandacht wilt voor het bovenlichaam. Bespreek vooraf waar je de meeste spanning ervaart, zodat de behandeling daarop kan worden afgestemd.",
+    "intensity": "Naar wens","oil": "Afhankelijk van behandeling","durations": [30,45,60,90,120],"price": null,"active": true,
+    "options": [{"duration":30,"price":null},{"duration":45,"price":null},{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "foot","name": "Voetmassage","type": "Deelmassage",
+    "short": "Gerichte massage van voeten en onderbenen.",
+    "long": "Een compacte behandeling met de focus op voeten en onderbenen. Geschikt als losse behandeling of wanneer je vooral daar aandacht wilt.",
+    "intensity": "Naar wens","oil": "Afhankelijk van behandeling","durations": [15,30,45,60,90,120],"price": null,"active": true,
+    "options": [{"duration":15,"price":null},{"duration":30,"price":null},{"duration":45,"price":null},{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "hotstone","name": "Hot stone massage","type": "Warmte & ontspanning",
+    "short": "Massage met warme stenen voor een rustige wellnessbeleving.",
+    "long": "Een massagevorm waarbij warmte onderdeel is van de behandeling. Kies deze behandeling wanneer je vooral op zoek bent naar een rustige, warme wellnesservaring.",
+    "intensity": "Zacht tot gemiddeld","oil": "Met olie","durations": [60,90,120],"price": null,"active": true,
+    "options": [{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "herbal","name": "Kruidenstempelmassage","type": "Traditioneel & warm",
+    "short": "Thaise massage met warme kruidenstempels.",
+    "long": "Een behandeling waarbij warme kruidenstempels worden gecombineerd met massagetechnieken. Een warme, traditionele optie voor wie iets anders wil dan een standaard oliemassage.",
+    "intensity": "Gemiddeld","oil": "Kan gecombineerd worden met olie","durations": [60,90,120],"price": null,"active": true,
+    "options": [{"duration":60,"price":null},{"duration":90,"price":null},{"duration":120,"price":null}]
+  },
+  {
+    "id": "cupping","name": "Cupping","type": "Aanvullende behandeling",
+    "short": "Gerichte cuppingbehandeling van 30 minuten.",
+    "long": "Cupping staat als behandeling vermeld bij Thai Smile. Bespreek vooraf of deze behandeling past bij wat je zoekt en geef relevante gezondheidsinformatie altijd door.",
+    "intensity": "Gericht","oil": "Niet van toepassing","durations": [30],"price": null,"active": true,
+    "options": [{"duration":30,"price":null}]
+  }
+]
