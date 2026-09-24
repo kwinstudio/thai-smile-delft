@@ -1,0 +1,172 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: site
+    label: Algemene website-informatie
+    type: file
+    path: data/site.json
+    fields:
+      - { name: name, label: Bedrijfsnaam, type: string }
+      - { name: legalName, label: Juridische naam, type: string }
+      - { name: tagline, label: Korte positionering, type: string }
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Bovenregel, type: string }
+          - { name: title, label: Hoofdtitel, type: string }
+          - { name: subtitle, label: Ondertekst, type: text }
+          - { name: primaryCta, label: Primaire knop, type: string }
+          - { name: secondaryCta, label: Secundaire knop, type: string }
+      - { name: phone, label: Telefoon technisch, type: string }
+      - { name: phoneDisplay, label: Telefoon zichtbaar, type: string }
+      - { name: whatsapp, label: WhatsApp nummer, type: string }
+      - { name: email, label: E-mail, type: string, required: false }
+      - name: address
+        label: Adres
+        type: object
+        fields:
+          - { name: street, label: Straat, type: string }
+          - { name: postalCode, label: Postcode, type: string }
+          - { name: city, label: Plaats, type: string }
+          - { name: country, label: Landcode, type: string }
+      - { name: kvk, label: KvK, type: string }
+      - name: openingHours
+        label: Openingstijden
+        type: object
+        fields:
+          - { name: monday, label: Maandag, type: string }
+          - { name: tuesday, label: Dinsdag, type: string }
+          - { name: wednesday, label: Woensdag, type: string }
+          - { name: thursday, label: Donderdag, type: string }
+          - { name: friday, label: Vrijdag, type: string }
+          - { name: saturday, label: Zaterdag, type: string }
+          - { name: sunday, label: Zondag, type: string }
+      - { name: hoursConflictNote, label: Interne controle openingstijden, type: text }
+      - name: owner
+        label: Eigenaar / behandelaar
+        type: object
+        fields:
+          - { name: name, label: Naam, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: credentials, label: Diploma / kwaliteit, type: text }
+      - name: about
+        label: Over de salon
+        type: object
+        fields:
+          - { name: eyebrow, label: Bovenregel, type: string }
+          - { name: title, label: Titel, type: string }
+          - { name: intro, label: Intro, type: text }
+          - name: principles
+            label: Kernpunten
+            type: list
+            fields:
+              - { name: title, label: Titel, type: string }
+              - { name: text, label: Uitleg, type: text }
+      - name: images
+        label: Hoofdafbeeldingen
+        type: object
+        fields:
+          - { name: hero, label: Hero-afbeelding, type: image }
+          - { name: interior, label: Salon-afbeelding, type: image }
+          - { name: imageMigrationNote, label: Interne notitie afbeeldingen, type: text }
+      - name: gallery
+        label: Galerij
+        type: list
+        fields:
+          - { name: src, label: Afbeelding, type: image }
+          - { name: alt, label: Alt-tekst, type: string }
+          - { name: caption, label: Bijschrift, type: string, required: false }
+      - name: reviews
+        label: Google Reviews
+        type: object
+        fields:
+          - { name: googleRating, label: Google score, type: number }
+          - { name: googleCount, label: Aantal Google reviews, type: number }
+          - { name: googleUrl, label: Reviewpagina, type: string }
+          - { name: writeGoogleUrl, label: Review schrijven, type: string }
+      - name: socials
+        label: Social media
+        type: object
+        fields:
+          - { name: instagram, label: Instagram, type: string, required: false }
+          - { name: facebook, label: Facebook, type: string, required: false }
+          - { name: tiktok, label: TikTok, type: string, required: false }
+      - name: seo
+        label: SEO
+        type: object
+        fields:
+          - { name: title, label: SEO titel, type: string }
+          - { name: description, label: Meta description, type: text }
+          - { name: canonical, label: Canonical URL, type: string }
+
+  - name: treatments
+    label: Behandelingen & prijzen
+    type: file
+    path: data/treatments.json
+    list: true
+    fields:
+      - { name: id, label: ID, type: string }
+      - { name: name, label: Behandeling, type: string }
+      - { name: type, label: Type, type: string }
+      - { name: short, label: Korte tekst, type: text }
+      - { name: long, label: Uitgebreide tekst, type: text }
+      - { name: intensity, label: Intensiteit, type: string }
+      - { name: oil, label: Olie, type: string }
+      - name: options
+        label: Duur & prijs
+        type: list
+        fields:
+          - { name: duration, label: Minuten, type: number }
+          - { name: price, label: Prijs, type: number, required: false }
+      - { name: active, label: Actief, type: boolean }
+
+  - name: packages
+    label: Cadeaubonnen / pakketten
+    type: file
+    path: data/packages.json
+    list: true
+    fields:
+      - { name: id, label: ID, type: string }
+      - { name: name, label: Naam, type: string }
+      - { name: description, label: Uitleg, type: text }
+      - { name: price, label: Prijs, type: number, required: false }
+      - { name: validity, label: Geldigheid, type: string, required: false }
+      - { name: cta, label: CTA, type: string, required: false }
+
+  - name: legal
+    label: Juridische teksten
+    type: file
+    path: data/legal.json
+    fields:
+      - name: terms
+        label: Algemene voorwaarden
+        type: object
+        fields:
+          - { name: title, label: Titel, type: string }
+          - name: sections
+            label: Onderdelen
+            type: list
+            fields:
+              - { name: heading, label: Kop, type: string }
+              - { name: text, label: Tekst, type: text }
+      - name: privacy
+        label: Privacy & cookies
+        type: object
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: text, label: Tekst, type: text }
+      - name: appointments
+        label: Annuleren & afspraken
+        type: object
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: text, label: Tekst, type: text }
+      - name: company
+        label: Bedrijfsgegevens
+        type: object
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: text, label: Tekst, type: text }
